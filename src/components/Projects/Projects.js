@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import jstack from "../../Assets/Projects/jstack.gif";
-import cep from "../../Assets/Projects/cep.gif";
+import waiterapp from "../../Assets/Projects/waiterapp.gif";
 import curr from "../../Assets/Projects/curr-ex.gif";
 import solar from "../../Assets/Projects/solar.gif";
 import shop from "../../Assets/Projects/shop.gif";
@@ -60,7 +60,6 @@ function Projects() {
               title="My ThemeSwitcher Blog"
               description="SPA build using React.JS, React Router and styled components. Used to learn the fundaments of react and get used to the theming process, implementing a theme switcher with ThemeProvider (ContextAPI) so the user can chose which theme to use."
               ghLink="https://github.com/heitor-jsr/react-functional-components"
-              demoLink="blank"
             />
           </Col>
 
@@ -71,18 +70,16 @@ function Projects() {
               title="Bank CRUD"
               description="A simple bank CRUD developed to the L2Code Challange. Made with express.js, JavaScript, Docker, Postgres and more."
               ghLink="https://github.com/heitor-jsr/L2-Code-Challange/tree/main/03"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cep}
+              imgPath={waiterapp}
               isBlog={false}
-              title="Postal Code Finder"
-              description="A simple postal code finder made with JavaScript, HTML and CSS while studing at Trybe."
-              ghLink="https://github.com/heitor-jsr/postal-code-api"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              title="WAITERAPP"
+              description="An application developed to help waiters register the orders and send then to the kitchen to start the cooking process. Once the kitchen starts the process, the order status is changed. Finally when its done the kitchen change the order status to 'done' so the waiters know it is done."
+              ghLink="https://github.com/heitor-jsr/waiter-app"
             />
           </Col>
         </Row>
