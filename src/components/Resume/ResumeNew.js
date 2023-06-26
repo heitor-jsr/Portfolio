@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/heitor-jsr/Portfolio/master/src/Assets/Heitor%2BJos%C3%A9%2BScalon%2BRibeiro%2BCurr%C3%ADculo%2B(3)-1.pdf";
+  "https://github.com/heitor-jsr/Portfolio/blob/master/src/Assets/Curriculo-1.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
